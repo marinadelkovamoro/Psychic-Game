@@ -46,6 +46,7 @@
                 computerPick = alphabet[Math.floor(Math.random() * alphabet.length)];
                 letters = "";
                 counter = 9;
+                alert ("You won!");
 
                 // Otherwise, increase losses by 1 and decrease counter by 1
             } else {
@@ -58,7 +59,7 @@
                 lossesText.textContent = losses;
                 computerPick = alphabet[Math.floor(Math.random() * alphabet.length)];
                 letters = "";
-            
+                alert ("You lost!");
                 // game over
                 //display "game over" message
                 // reset counter to 0
